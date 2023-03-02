@@ -1,0 +1,2 @@
+whisper audio.mp4 --language Spanish --model medium
+Using Medium Model

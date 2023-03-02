@@ -1,0 +1,2 @@
+whisper audio.mp4 --language Spanish --task translate --fp16 False
+Using Small Model
