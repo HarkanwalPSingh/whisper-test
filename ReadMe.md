@@ -14,6 +14,6 @@ whisper japanese.wav --language Japanese
 whisper japanese.wav --language Japanese --task translate
 
 ### References
-https://github.com/openai/whisper
-https://www.baeldung.com/linux/ffmpeg-audio-from-video
-https://github.com/jdepoix/youtube-transcript-api
+- https://github.com/openai/whisper
+- https://www.baeldung.com/linux/ffmpeg-audio-from-video
+- https://github.com/jdepoix/youtube-transcript-api
