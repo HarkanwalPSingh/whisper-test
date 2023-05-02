@@ -2,7 +2,7 @@ import argparse
 from pytube import YouTube
 
 def Download(link):
-    youtubeObject = YouTube(link)
+    youtubeObject = YouTube(link, use_oauth=True, allow_oauth_cache=True)
     youtubeObject = youtubeObject.streams.get_highest_resolution()
     try:
         youtubeObject.download()
